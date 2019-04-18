@@ -1,15 +1,19 @@
 <?php
 
-require "src/Product.php";
-require "Product.php";
+require __DIR__ . "/autoload.php";
 
 
-$notebook = new SON\Computers\product;
+$notebook = new SON\Store\Computers\product;
 $name = $notebook->getName();
 echo "<div>".$name."</div>";
 
-$acessorie = new SON\Acessories\Product;
+$acessorie = new SON\Store\Acessories\Product;
 $name = $acessorie->getName();
 echo "<div>".$name."</div>";
+
+$acessorieBrand = new SON\Store\Acessories\Brands\NationalBrand;
+$name = $acessorieBrand->getName();
+echo "<div>".$name."</div>";
+
 
 

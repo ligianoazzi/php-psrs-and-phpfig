@@ -1,13 +1,13 @@
 <?php
 
-namespace SON\Acessories;
+namespace SON\Store\Acessories\Brands;
 
-class Product{
+class NationalBrand{
 
 	private $name;
 
 	public function __construct(){
-		$this->name = 'Mouse';
+		$this->name = 'BrandXYZ';
 	}
 
 	public function getName(){

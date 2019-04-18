@@ -1,6 +1,6 @@
 <?php
 
-namespace SON\Computers;
+namespace SON\Store\Computers;
 
 class Product
 {
