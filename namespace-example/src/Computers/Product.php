@@ -4,14 +4,15 @@ namespace SON\Store\Computers;
 
 class Product
 {
-	private $notebook;
+    private $notebook;
 
-	public function __construct(){
-		$this->name = 'Asus';
-	}
+    public function __construct()
+    {
+        $this->name = 'Asus';
+    }
 
-	public function getName()
-	{
-		return $this->name;
-	}	
+    public function getName()
+    {
+        return $this->name;
+    }
 }

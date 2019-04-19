@@ -2,16 +2,18 @@
 
 namespace SON\Store\Acessories\Brands;
 
-class NationalBrand{
+class NationalBrand
+{
 
-	private $name;
+    private $name;
 
-	public function __construct(){
-		$this->name = 'BrandXYZ';
-	}
+    public function __construct()
+    {
+        $this->name = 'BrandXYZ';
+    }
 
-	public function getName(){
-		return $this->name;
-	} 
-
+    public function getName()
+    {
+        return $this->name;
+    }
 }

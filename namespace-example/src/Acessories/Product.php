@@ -2,16 +2,18 @@
 
 namespace SON\Store\Acessories;
 
-class Product{
+class Product
+{
 
-	private $name;
+    private $name;
 
-	public function __construct(){
-		$this->name = 'Mouse';
-	}
+    public function __construct()
+    {
+        $this->name = 'Mouse';
+    }
 
-	public function getName(){
-		return $this->name;
-	} 
-
+    public function getName()
+    {
+        return $this->name;
+    }
 }
